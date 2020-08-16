@@ -37,8 +37,18 @@ a{
     
 
 }
+.contact{
+        animation:blinkingText 3.0s infinite;
+}
+@keyframes blinkingText{
+    0%{     color:whitesmoke;    }
+    49%{    color:#17d1ac; }
+    70%{    color: whitesmoke; }
+    91%{    color:#17d1ac;  }
+    100%{   color:whitesmoke;   }
+}
 .logo{
-    color: red;
+    color: #17d1ac;
     font-size: larger;
     font-weight: bold;
 }
