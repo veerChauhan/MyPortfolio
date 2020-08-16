@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* Html body style  */
+
+body{
+    margin: 0px;
+    top: 0px;
+    background-color: black;
+    background-image: url(../Images/meimage.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 40%;
+}
+
+ul{
+    list-style: none;
+}
+
+/* anchor tag  */
+
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    padding: 20px;  
+}
+.logo,.contact{
+    color: whitesmoke;
+    font-family: fantasy;
+    
+
+}
+.logo{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;   
+}
+
+li{
+    text-transform: capitalize;
+    padding-inline-start: 50px;
+  
+}
+.menu li a{
+    padding: 10;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    color: aliceblue;
+}
+.main{
+    background-color: black;
+    width: 100%;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: white;
+    width: 100%;
+}
+
+.main div h1 , h3{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),
+.name .details{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.name h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 2px;
+    columns: #29292929;
+    color: whitesmoke;
+}
+.cv-btn{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    color:black;
+    border-radius: 2%;
+    font-weight: bold;
+
+}
+.cv-btn:hover{
+    background-color: #17d1ac;
+    transition: all ease 0.3s;
+    color:whitesmoke;
+
+}
+.arrow{
+    align-self: end;
+    width: 50%;
+    height: 15%;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 0px;
+    left: 3%;
+    border-right: 1px solid white;
+}
+.arrow::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0px 11px;
+    border-color: white transparent transparent transparent;
+    right: -0.7em;
+    bottom: -2px ;
+}
+.social-media{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
