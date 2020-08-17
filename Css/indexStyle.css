@@ -95,6 +95,7 @@ li{
     left: 20%;
     top: 50%;
     transform: translate(-20%,-50%);
+    
 }
 .name p:nth-child(1),
 .name .details{
