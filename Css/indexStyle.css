@@ -28,12 +28,12 @@ a{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: black;
     padding: 20px;  
+    flex-wrap: wrap;
+
 }
 .logo,.contact{
     color: whitesmoke;
     font-family: fantasy;
-    
-
 }
 .contact{
         animation:blinkingText 3.0s infinite;
@@ -172,5 +172,52 @@ li{
     background: #3B5998;
     color: white;
   }
-  
-  
+  .technolgy{
+    display: flex;
+    color: whitesmoke;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    top: 105%;
+    position: absolute;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  .technology-know{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    top: 100%;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+
+  }
+  #card{
+      display: flex;
+      color: black;
+      height: 180px;
+      width: 180px;
+      background-color: #17d1ac;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: 400;
+      font-size: 25px;
+      border-radius: 20px;
+  }
+  #technology-heading{
+    display: flex;
+    color: whitesmoke;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 400;
+
+  }
